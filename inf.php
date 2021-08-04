@@ -16,7 +16,7 @@
   <script>
 	  function login(){
 			console.log(document.getElementById("fieldPass"));
-		  if(document.getElementById("fieldPass").value == "Admin123"){
+		  if(document.getElementById("fieldPass").value == ""){
 			sessionStorage.setItem('admin', '1'); 
 			window.open('index.php',"_self");
 		  }
@@ -24,7 +24,7 @@
 	  function login2(){
   		if (event.keyCode === 13) {
 			console.log(document.getElementById("fieldPass"));
-			if(document.getElementById("fieldPass").value == "Admin123"){
+			if(document.getElementById("fieldPass").value == ""){
 				sessionStorage.setItem('admin', '1'); 
 				window.open('index.php',"_self");
 			}

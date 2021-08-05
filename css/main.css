@@ -1,0 +1,54 @@
+
+#fieldView {
+	height:22px;
+	padding:0px;
+}
+
+.arrows-css{
+	height:35px;
+	width:auto;
+}
+
+#smokeFrame {
+	display: none;
+	background-color:black; 
+	opacity: 0.5;
+	padding:0px 1px 0px 1px;
+	position: absolute;
+	top:58px;
+	height:calc(100vh - 58px);
+	width:100%;
+}
+
+#loadingPage {
+	display: none;
+	padding:0px 1px 0px 1px;
+	position: absolute;
+	top:calc(50vh - 80px);
+	left:calc(50vw - 50px);
+	height:80px;
+	width:80px;
+}
+
+#addFrame {
+	display: none;
+	width:650px;
+	height:385px;
+	max-height:530px;
+	position: absolute;
+	top: 10%; 
+	left: 50%; 
+	transform: translate(-50%, 0);
+}
+
+.btn-close-css {
+	font-weight: bold;
+	height:25px;
+	margin-top:0px;
+	padding-top:1px;
+}
+
+#divEmails {
+	max-height:114px;
+	overflow: auto;
+}
